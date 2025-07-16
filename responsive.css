@@ -25,6 +25,8 @@
     .hero {
        margin: 0;
        text-align: center;
+       height: 100%;
+       
         
     }
     .hero-details-left {
@@ -58,4 +60,23 @@
         text-align: center;
         width: 350px;
     }
+    .hero .hero-left-cta {
+    flex-direction: column;
+
+}
+.hero .hero-left-cta .cta1 button {
+    width: 350px;
+}
+.hero .hero-left-cta .cta2 button {
+    width: 350px;
+}
+.hero-details-left .hero-botton-left {
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+}
+.hero-details-right .hero-img img {
+    width: 500px;
+    height: 100%;
+}
 }
