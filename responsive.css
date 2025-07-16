@@ -28,5 +28,11 @@
     .hero-details-left h1 {
         font-size: 3rem;
          width: 500px;
+         text-align: center;
+         
+    }
+    .hero-details-left p {
+        font-size: 1.1rem;
+        text-align: center;
     }
 }
