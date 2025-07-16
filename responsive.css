@@ -49,14 +49,14 @@
     }
 
     .hero-details-left h1 {
-        font-size: 3rem;
+        font-size: 2.8rem;
         width: 400px;
         text-align: center;
 
     }
 
     .hero .hero-details-left p {
-        font-size: 1rem;
+        font-size: 0.9rem;
         text-align: center;
         width: 350px;
     }
@@ -65,10 +65,10 @@
 
 }
 .hero .hero-left-cta .cta1 button {
-    width: 350px;
+    width: 340px;
 }
 .hero .hero-left-cta .cta2 button {
-    width: 350px;
+    width: 340px;
 }
 .hero-details-left .hero-botton-left {
     justify-content: center;
