@@ -1,0 +1,32 @@
+@media (max-width:640px){
+    .header .navlist {
+        display: none;
+
+    }
+    .header .header-cta {
+        display: none;
+    }
+    .header .menuicon {
+        display: block;
+    }
+}
+/*Hero Section*/
+@media (max-width:640px) {
+    .hero {
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hero-details-left>span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10rem;
+
+    }
+    .hero-details-left h1 {
+        font-size: 3rem;
+         width: 500px;
+    }
+}
