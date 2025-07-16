@@ -127,7 +127,9 @@ body {
     
 }
 
-
+.hero-details-right {
+    flex: 0 0 40%;
+}
 
 .hero-details-right .hero-img img {
     width: 500px;
