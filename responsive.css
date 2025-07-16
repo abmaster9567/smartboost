@@ -40,12 +40,15 @@
         justify-content: center;
         align-items: center;
         margin-top: 10rem;
+        width: 320px;
+        font-size: 12px;
+
 
     }
 
     .hero-details-left h1 {
-        font-size: 2rem;
-        width: 290px;
+        font-size: 3rem;
+        width: 400px;
         text-align: center;
 
     }
