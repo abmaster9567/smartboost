@@ -107,9 +107,10 @@
 @media (max-width: 640px) {
     .services {
         margin: auto;
+        height: 100%;
 
     }
-    
+
 
     .services .service-header h1 {
         margin-top: 8rem;
@@ -118,6 +119,7 @@
         width: 300px;
         text-align: center;
     }
+
     .services .service-header p {
         font-size: 1rem;
         width: 320px;
@@ -125,32 +127,74 @@
         margin-top: 1rem;
 
     }
+
     .services .service-container {
         flex-direction: column;
         align-items: center;
         gap: 20px;
+
+
     }
+
     .services .service-container .service-card {
         width: 320px;
         max-width: 100%;
     }
+
     .services .service-container .service-card h2 {
         font-size: 1.2rem;
         width: 250px;
     }
+
     .services .service-container .service-card p {
         font-size: 0.9rem;
         width: 250px;
     }
+
     .services .service-container .service-card li {
         font-size: 0.8rem;
     }
+
     .service-card .card-cta button {
         width: 250px;
         padding: 10px;
         font-size: 0.9rem;
     }
 
-    
 
+
+}
+
+/* Why choose us section */
+@media (max-width: 640px) {
+    .why-choose {
+        margin: auto;
+        height: 100%;
+    }
+
+    .why-choose .why-choose-header h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .why-choose .why-choose-header p {
+        font-size: 1.1rem;
+        width: 380px;
+    }
+
+    .why-choose .why-choose-container {
+        flex-direction: column;
+
+    }
+
+    .why-choose-container .why-choose-card {
+        width: 390px;
+        height: 290px;
+    }
+    .why-choose-card p {
+        font-size: 1rem;
+    }
+    .why-choose .why-count {
+        height: 100%;
+    }
 }
