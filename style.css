@@ -273,7 +273,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
    
     
@@ -294,7 +294,6 @@ body {
 
 }
 .services .service-container .service-card:hover {
-    transform: scale(96%);
     box-shadow: rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5);
 }
  .service-card .service-icon {
