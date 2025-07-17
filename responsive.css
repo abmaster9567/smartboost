@@ -113,13 +113,13 @@
     .services .service-header h1 {
         margin-top: 8rem;
         font-weight: 700;
-        font-size: 1.1rem;
+        font-size: 2rem;
         width: 300px;
         text-align: center;
     }
     .services .service-header p {
-        font-size: 0.9rem;
-        width: 300px;
+        font-size: 1rem;
+        width: 320px;
         text-align: center;
         margin-top: 1rem;
 
