@@ -243,7 +243,7 @@ body {
 }
 .services {
     margin: 40px;
-    margin-top: 15rem;
+    margin-top: 10rem;
     background-color: var(--bg-color);
 }
 .service-header {
@@ -274,7 +274,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
    
     
 }
