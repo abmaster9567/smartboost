@@ -242,9 +242,10 @@ body {
     scroll-margin-top: 100px;
 }
 .services {
-    margin: 40px;
+    margin: 30px;
     margin-top: 10rem;
     background-color: var(--bg-color);
+    
 }
 .service-header {
     display: flex;
@@ -274,7 +275,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
    
     
 }
