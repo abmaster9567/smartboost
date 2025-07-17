@@ -23,15 +23,16 @@
 /*Hero Section*/
 @media (max-width:640px) {
     .hero {
-       margin: 0;
-       text-align: center;
-       height: 100%;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       
-        
+        margin: 0;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
     }
+
     .hero-details-left {
         display: flex;
         flex-direction: column;
@@ -63,34 +64,74 @@
         text-align: center;
         width: 350px;
     }
-    .hero .hero-left-cta {
-    flex-direction: column;
 
+    .hero .hero-left-cta {
+        flex-direction: column;
+
+    }
+
+    .hero .hero-left-cta .cta1 button {
+        width: 340px;
+    }
+
+    .hero .hero-left-cta .cta2 button {
+        width: 340px;
+    }
+
+    .hero-details-left .hero-botton-left {
+        justify-content: center;
+        align-items: flex-start;
+        width: 300px;
+    }
+
+    .hero-details-right .hero-img {
+        display: none;
+
+    }
+
+    .hero-details-right .hero-img1 {
+        display: block;
+    }
+
+    .hero-details-right .hero-img1 img {
+        max-width: 350px;
+        height: auto;
+        display: block;
+        margin: 2rem auto;
+        border-radius: 10px;
+
+    }
 }
-.hero .hero-left-cta .cta1 button {
-    width: 340px;
-}
-.hero .hero-left-cta .cta2 button {
-    width: 340px;
-}
-.hero-details-left .hero-botton-left {
-    justify-content: center;
-    align-items: flex-start;
-    width: 300px;
-}
-.hero-details-right .hero-img {
-    display: none;
-   
-}
-.hero-details-right .hero-img1 {
-    display: block;
-}
-.hero-details-right .hero-img1 img {
-    max-width: 350px;
-    height: auto;
-    display: block;
-    margin: 2rem auto;
-    border-radius: 10px;
-    
-}
+
+/* Service Section */
+@media (max-width: 640px) {
+    .services {
+        margin: auto;
+
+    }
+
+    .services .service-header h1 {
+        margin-top: 8rem;
+        font-weight: 800;
+        font-size: 1.5rem;
+        width: 300px;
+        text-align: center;
+    }
+    .services .service-header p {
+        font-size: 0.9rem;
+        width: 300px;
+        text-align: center;
+        margin-top: 1rem;
+
+    }
+    .services .service-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .services .service-container .service-card p {
+        font-size: 0.9rem;
+        width: 300px;
+    }
+
 }
