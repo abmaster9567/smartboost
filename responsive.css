@@ -146,7 +146,9 @@
         font-size: 0.8rem;
     }
     .service-card .card-cta button {
-        width: 240px;
+        width: 250px;
+        padding: 10px;
+        font-size: 0.9rem;
     }
 
     
