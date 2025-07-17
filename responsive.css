@@ -129,15 +129,6 @@
         align-items: center;
         gap: 20px;
     }
-    .services .service-container .service-card h2 {
-        font-size: 1.2rem;
-    }
-    .services .service-container .service-card p {
-        font-size: 0.7rem;
-        width: 250px;
-    }
-    .service-card .card-cta button {
-        width: 280px;
-    }
+    
 
 }
