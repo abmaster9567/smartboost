@@ -283,7 +283,7 @@ body {
     background-color: #fff;
     border: 2px solid var(--primary-color);
     border-radius: 10px 10px;
-    width: 400px;
+    width: 380px;
     height: 500px;
     display: flex;
     flex-flow: column wrap;
