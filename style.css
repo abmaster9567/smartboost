@@ -21,6 +21,9 @@
     box-sizing: border-box;
     max-width: 100%;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: "Poppins", sans-serif;
 }
@@ -55,7 +58,8 @@ body {
     margin: 20px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 17px;
+    transition: .5s;
 }
 .navlist li a:hover {
     color: var(--link-hover-color);
@@ -66,6 +70,7 @@ body {
     margin: 15px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
+    transition: .5s;
 }
 .header-cta a:hover {
     color: var(--link-hover-color);
@@ -93,6 +98,9 @@ body {
     height: 30px;
     display: none;
 
+}
+#home {
+    scroll-margin-top: 110px;
 }
 .hero {
     display: flex;
@@ -131,9 +139,12 @@ body {
 }
 
 .hero-details-right .hero-img img {
-    width: 500px;
+    width: 600px;
     height: 100%;
     border-radius: 10px;
+}
+.hero-details-right .hero-img1 {
+    display: none;
 }
 .hero-details-left h1 {
     font-family: "Poppins", sans-serif;
@@ -200,6 +211,7 @@ body {
      color: var(--primary-color);
      text-align: center;
      cursor: pointer;
+     transform: .3s ease-in-out;
 
 }
 .hero .hero-left-cta .cta2 button:hover {
@@ -225,6 +237,9 @@ body {
     color: var(--primary-color);
 
     
+}
+#services {
+    scroll-margin-top: 100px;
 }
 .services {
     margin: 40px;
@@ -335,6 +350,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 1rem;
+     
 }
 .service-card .card-cta button {
     display: inline-block;
@@ -355,4 +371,18 @@ body {
     background-color: transparent;
     color: var(--primary-color);
 }
-
+.service-container .service-bottom-cta button{
+    display: inline-block;
+    padding: 22px;
+    width: 350px;
+    border: none;
+    background: linear-gradient(to right, #082AC9 80%, #FFC501 100%);
+    border-radius: 10px;
+    color: var(--bg-color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 2rem;
+}
