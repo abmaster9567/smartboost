@@ -279,6 +279,7 @@ body {
     margin: 30px;
     margin-top: 10rem;
     background-color: var(--bg-color);
+    min-height: 600px;
 
 }
 
@@ -323,7 +324,7 @@ body {
     border: 2px solid #cfcece;
     border-radius: 10px 10px;
     width: 380px;
-    height: 500px;
+    min-height: 500px;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
@@ -442,7 +443,7 @@ body {
     
     margin-top: 10rem;
     background-color: var(--service-icon-bg);
-    height: 1250px;
+    min-height: 700px;
 
     
 
@@ -489,7 +490,7 @@ body {
     background-color: #fff;
     border-radius: 15px 15px;
     width: 420px;
-    height: 290px;
+    min-height: 290px;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;

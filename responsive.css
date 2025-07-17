@@ -189,6 +189,8 @@
 
     .why-choose-container .why-choose-card {
         width: 340px;
+        height: 300px;
+
     }
     .why-choose-card p {
         font-size: 1rem;
