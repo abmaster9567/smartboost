@@ -281,7 +281,7 @@ body {
 }
 .services .service-container .service-card {
     background-color: #fff;
-    border: 2px solid var(--primary-color);
+    border: 2px solid #cfcece;
     border-radius: 10px 10px;
     width: 380px;
     height: 500px;
@@ -290,12 +290,15 @@ body {
     justify-content: space-evenly;
     align-items: center;
     margin-top: 4rem;
-    transition: 3s;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1);
     cursor: pointer;
 
 }
 .services .service-container .service-card:hover {
-    box-shadow: rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5);
+    transform: scale(1.03);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
  .service-card .service-icon {
     background-color: #082AC9;
@@ -355,7 +358,7 @@ body {
 .service-card .card-cta button {
     display: inline-block;
     padding: 15px;
-    width: 350px;
+    width: 320px;
     background-color: var(--primary-color);
     border: 2px solid var(--primary-color);
     color: var(--bg-color);
