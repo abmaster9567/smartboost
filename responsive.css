@@ -141,6 +141,9 @@
         font-size: 0.9rem;
         width: 300px;
     }
+    .services .service-container .service-card li {
+        font-size: 0.9rem;
+    }
     .service-card .card-cta button {
         width: 250px;
     }
