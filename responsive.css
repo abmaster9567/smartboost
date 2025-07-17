@@ -131,21 +131,22 @@
         gap: 20px;
     }
     .services .service-container .service-card {
-        width: 340px;
+        width: 320px;
         max-width: 100%;
     }
     .services .service-container .service-card h2 {
         font-size: 1.2rem;
+        width: 250px;
     }
     .services .service-container .service-card p {
         font-size: 0.9rem;
-        width: 300px;
+        width: 250px;
     }
     .services .service-container .service-card li {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     .service-card .card-cta button {
-        width: 250px;
+        width: 240px;
     }
 
     
