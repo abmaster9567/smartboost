@@ -274,7 +274,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
    
     
 }
@@ -282,8 +282,8 @@ body {
     background-color: #fff;
     border: 2px solid var(--primary-color);
     border-radius: 10px 10px;
-    width: 420px;
-    height: 540px;
+    width: 400px;
+    height: 500px;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
