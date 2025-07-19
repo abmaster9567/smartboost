@@ -141,6 +141,8 @@ body {
     margin: 40px;
     margin-top: 13.5rem;
     background-color: var(--bg-color);
+    
+    
 
 
 }
@@ -818,6 +820,16 @@ body {
     width: 350px;
     min-height: 320px;
     margin-bottom: 2rem;
+    animation: scroll-left 2s linear infinite;
+}
+@keyframes scroll-left {
+    0% {
+        transform: translateX(10%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+    
 }
 .review-card .review-icon{
     color:#8291AC;
