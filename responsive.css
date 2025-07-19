@@ -107,7 +107,8 @@
 @media (max-width: 640px) {
     .services {
         margin: auto;
-        height: 100%;
+        height: auto;
+        padding-bottom: 5rem;
 
     }
 
@@ -170,6 +171,7 @@
     .why-choose {
         margin: auto;
         height: 100%;
+        padding-bottom: 3rem;
     }
 
     .why-choose .why-choose-header h1 {
@@ -192,11 +194,60 @@
         height: 300px;
 
     }
+
     .why-choose-card p {
         font-size: 1rem;
-        
+
     }
+
     .why-choose .why-count {
         height: 100%;
+    }
+}
+
+/* How It Works */
+@media (max-width: 640px) {
+    .how-it-works {
+        margin: auto;
+        height: 100%;
+        padding-bottom: 3rem;
+    }
+
+    .how-it-header {
+        margin-top: 0;
+    }
+
+    .how-it-header h2 {
+        margin-top: 3rem;
+    }
+
+    .how-it-header p {
+        font-size: 1.1rem;
+        width: 340px;
+        text-align: center;
+    }
+    .how-it-container {
+        flex-flow: column wrap;
+        gap: 25px;
+    }
+
+    .how-it-container .how-it-card {
+        min-height: 300px;
+        width: 350px;
+    }
+}
+@media (max-width: 640px) {
+    .review {
+        margin-top: 0;
+    }
+    .review-header {
+        margin-top: 0;
+    }
+    .review-header h2 {
+        font-size: 1.5rem;
+    }
+    .review-header p  {
+        font-size: 1.1rem;
+        width: 350px;
     }
 }

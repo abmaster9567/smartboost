@@ -642,7 +642,7 @@ body {
     border-radius: 12px;
     padding: 4px;
     z-index: 0;
-    overflow: hidden; 
+    overflow: hidden;
     background: conic-gradient(from 0deg, #082AC9, #FFC501, #082AC9, #FFC501);
 }
 
@@ -660,6 +660,7 @@ body {
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(360deg);
     }
@@ -757,4 +758,128 @@ body {
     border: 2px solid var(--primary-color);
     transition: .3s;
     transform: scale(1.1);
+}
+
+.review {
+    background-color: var(--service-icon-bg);
+    min-height: 700px;
+    margin-top: -2rem;
+}
+
+.review-header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    
+}
+.review-header h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-top: 5rem;
+
+}
+.review-header p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    width: 750px;
+    text-align: center;
+    margin-top: 1rem;
+    color: #5c5a5a;
+
+}
+
+.review .review-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+   overflow-x: auto;
+   gap: 30px;
+   margin: 30px;
+   margin-bottom: -5rem;
+
+}
+
+.review-container .review-card {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #fff;
+    border: 2px solid var(--service-icon-bg);
+    border-radius: 10px 10px;
+    padding: 30px 30px;
+    width: 350px;
+    min-height: 320px;
+    margin-bottom: 2rem;
+}
+.review-card .review-icon{
+    color:#8291AC;
+    width: 32px;
+    height: 32px;
+    stroke: currentColor;
+    display: inline-flex;
+    box-sizing: content-box;
+    margin-top: 1.1rem;
+   
+
+}
+.review-card .review-star .review-star-icon {
+    fill: var(--link-hover-color);
+    width: 16px;
+    height: 16px;
+    stroke: var(--link-hover-color);
+    display: inline-flex;
+    box-sizing: content-box;
+    margin-bottom: 1rem;
+
+}
+.review-card>span {
+    width: 270px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #515a6a;
+    margin-top: -2rem;
+ 
+}
+
+.review-card .review-profile {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.review-card .review-profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 0.9rem;
+}
+
+.review-card .review-profile .review-profile-text {
+    margin-left: 0.5rem;
+
+}
+
+.review-card .review-profile .review-profile-text h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1.02rem;
+
+}
+.review-card .review-profile .review-profile-text span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #515a6a;
+
 }
