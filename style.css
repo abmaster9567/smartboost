@@ -55,13 +55,13 @@ body {
     margin-right: 5rem;
 }
 .header .logo-icon {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     margin-right: 8px;
 }
 .header .logo-text {
     font-family: "Poppins", sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
     color: var(--bg-color);
 }
