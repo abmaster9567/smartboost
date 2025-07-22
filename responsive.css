@@ -17,6 +17,10 @@
 
     .header .menuicon {
         display: block;
+
+    }
+    .header .menuicon:focus {
+        background-color: #E6ECFE;
     }
 }
 
