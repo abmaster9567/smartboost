@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --primary-color: #082AC9;
+    --accent-color: #771C69;
+    --text-color: #0B1E47;
+    --light-bg: #E5E7EB;
+    --bg-color: #fff;
+    --link-hover-color: #FFC501;
+    --service-icon-bg: #E6ECFE;
+    --primary-dark: #4f6dff;
+    --glass-bg: rgba(30, 41, 59, 0.5);
+
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    width: 100%;
+}
+.login-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.login-header {
+    margin-right: 10rem;
+}
+.form-gp {
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+.form-gp input {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+
+
+}
+.form-gp input:focus {
+    outline: none;
+    border: 1.5px solid var(--primary-color);
+}
+.form-gp label{
+    position: absolute;
+    top: 17px;
+    left: 12px;
+    color: #999;
+    background-color: white;
+    padding: 0 4px;
+    transition: 0.2s ease all;
+    pointer-events: none;
+}
+.form-gp input:focus + label, .form-gp input:not(:placeholder-shown) + label {
+    top: -8px;
+    left: 12px;
+    font-size: 12px;
+    color: var(--primary-color);
+}
+.form-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.form-cta span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+
+}
+input[type="checkbox"] {
+    cursor: pointer;
+
+}
+
+.form-cta a{
+    text-decoration: none;
+    color: var(--primary-color);
+
+}
+.form-btn {
+    margin-top: 15px;
+}
+.form-btn button {
+    width: 100%;
+    padding: 18px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
