@@ -340,7 +340,6 @@ body {
 
 .services .service-container .service-card {
     background-color: #fff;
-    border: 2px solid var(--service-icon-bg);
     border-radius: 10px 10px;
     width: 380px;
     min-height: 500px;
