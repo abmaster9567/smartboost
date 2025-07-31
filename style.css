@@ -154,11 +154,11 @@ body {
 }
 
 .hero-details-left>span {
-    display: inline-block;
+    display: block;
     background-color: var(--service-icon-bg);
     color: var(--primary-color);
     padding: 10px;
-    border-radius: 50px;
+    border-radius: 10px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -176,9 +176,9 @@ body {
 
 }
 
-.hero-details-right {
+/*.hero-details-right {
     flex: 0 0 40%;
-}
+}*/
 
 .hero-details-right .hero-img img {
     width: 600px;
