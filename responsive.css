@@ -84,7 +84,7 @@
     }
 
     .hero .hero-left-cta .button {
-        width: 165px;
+        width: 150px;
         font-weight: 600;
         font-size: 0.9rem;
     }
@@ -92,7 +92,7 @@
     .hero .hero-left-cta a {
         font-weight: 600;
 
-        width: 165px;
+        width: 150px;
         font-size: 0.9rem;
 
     }
@@ -140,7 +140,7 @@
         font-family: "Poppins", sans-serif;
         font-weight: 300;
         font-size: 0.6rem;
-        margin-left: -1rem;
+        margin-left: -0.8rem;
 
     }
 
