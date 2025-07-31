@@ -56,6 +56,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
         width: 320px;
         font-size: 12px;
         text-align: left;
+        margin-left: -2rem;
+        
 
 
     }
@@ -76,20 +78,32 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     .hero .hero-left-cta {
         flex-direction: row;
         margin-left: 0;
-        gap: 20px;
+        
 
     }
 
     .hero .hero-left-cta .button {
         width: 165px;
+        font-weight: 600;
         font-size: 0.9rem;
     }
 
     .hero .hero-left-cta a {
+         font-weight: 600;
+
         width: 165px;
-        font-size: 0.8rem;
-        min-height: 50px;
+        font-size: 0.9rem;
+        
     }
+    .hero-left-cta .hero-cta-icon {
+    margin-right: 0.4rem;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-left: -0.9rem;
+    
+
+}
 
     .hero-details-left .hero-botton-left {
         justify-content: center;
