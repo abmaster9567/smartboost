@@ -312,19 +312,19 @@
 
     .how-it-container .how-it-card {
         min-height: 250px;
-        width: 190px;
-        flex: 25%;
+        width: 180px;
+        flex: 1 1 20%;
     }
     .how-it-container .how-it-card .how-icon {
         width: 20px;
         height: 20px;
     }
     .how-it-container .how-it-card h5 {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     .how-it-container .how-it-card p {
-        font-size: 0.6rem;
-        width: 180px;
+        font-size: 0.7rem;
+        width: 150px;
     }
      .how-it-container .arrow-icon-down {
         height: 30px;
