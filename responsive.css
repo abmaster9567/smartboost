@@ -313,6 +313,7 @@
     .how-it-container .how-it-card {
         min-height: 250px;
         width: 190px;
+        flex: 25%;
     }
     .how-it-container .how-it-card .how-icon {
         width: 20px;
