@@ -247,7 +247,8 @@
 
     .why-choose .why-choose-container {
         flex-direction: row;
-        gap: -20px;
+        margin-left: 0;
+        gap: -2rem;
         
         
 
