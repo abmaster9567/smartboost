@@ -731,7 +731,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    border: 5px solid var(--service-icon-bg);
+    border: 2px solid var(--service-icon-bg);
     width: 300px;
     min-height: 260px;
     border-radius: 10px;
