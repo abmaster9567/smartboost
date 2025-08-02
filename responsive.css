@@ -290,8 +290,9 @@
     }
 
     .how-it-container {
-    gap: 6px;
-    justify-content: space-around;
+    gap: 5px;
+    justify-content: center;
+    margin: 0 12px 0 12px;
 
 
     }
@@ -311,20 +312,21 @@
     }
 
     .how-it-container .how-it-card {
-        min-height: 250px;
-        width: 180px;
-        flex: 1 1 20%;
+        min-height: 230px;
+        width: 130px;
+        flex: 0 0 calc((100% - 32px) / 2);
     }
     .how-it-container .how-it-card .how-icon {
         width: 20px;
         height: 20px;
     }
     .how-it-container .how-it-card h5 {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .how-it-container .how-it-card p {
         font-size: 0.7rem;
-        width: 150px;
+        width: 130px;
+        text-align: center;
     }
      .how-it-container .arrow-icon-down {
         height: 30px;
