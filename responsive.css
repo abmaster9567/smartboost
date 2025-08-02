@@ -166,13 +166,14 @@
         padding-top: 5rem;
 
     }
+
     .services .service-header span {
         font-size: 0.7rem;
     }
 
 
     .services .service-header h5 {
-         margin-top: 0.8rem;
+        margin-top: 0.8rem;
         font-weight: 500;
         font-size: 1.5rem;
         width: 300px;
@@ -233,15 +234,16 @@
     }
 
     .why-choose .why-choose-header h5 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-align: center;
-        width: 280px;
-        
+        width: 230px;
+        margin-top: 0.5rem;
+
     }
 
     .why-choose .why-choose-header p {
-        font-size: 1rem;
-        width: 350px;
+        font-size: 0.9rem;
+        width: 320px;
         text-align: center;
     }
 
@@ -277,29 +279,31 @@
     }
 
     .how-it-header {
-        margin: 1rem  0 1rem 0;
+        margin: 1rem 0 1rem 0;
     }
 
-    .how-it-header h2 {
-        margin-top: 3rem;
+    .how-it-header h5 {
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
     }
 
     .how-it-header p {
-        font-size: 1.1rem;
-        width: 340px;
+        font-size: 0.9rem;
+        width: 250px;
         text-align: center;
     }
 
     .how-it-container {
-    gap: 5px;
-    justify-content: center;
-    margin: 0 12px 0 12px;
+        gap: 5px;
+        justify-content: center;
+        margin: 0 12px 0 12px;
 
 
     }
-     .how-it-container .arrow-icon {
+
+    .how-it-container .arrow-icon {
         display: none;
-     }
+    }
 
     .how-it-container .arrow-icon-down {
         display: none;
@@ -309,9 +313,9 @@
         display: block;
         width: 10px;
         height: 10px;
-         stroke: var(--primary-color);
+        stroke: var(--primary-color);
 
-    
+
     }
 
     .how-it-container .how-it-card {
@@ -319,22 +323,26 @@
         max-width: 180px;
         flex: 0 0 calc((100% - 32px) / 2);
     }
+
     .how-it-container .how-it-card .how-icon {
         width: 20px;
         height: 20px;
     }
+
     .how-it-container .how-it-card h5 {
         font-size: 0.9rem;
     }
+
     .how-it-container .how-it-card p {
         font-size: 0.7rem;
         width: 130px;
         text-align: center;
     }
-     .how-it-container .arrow-icon-down {
+
+    .how-it-container .arrow-icon-down {
         height: 30px;
         width: 30px;
-     }
+    }
 }
 
 @media (max-width: 640px) {
@@ -346,12 +354,24 @@
         margin-top: 0;
     }
 
-    .review-header h2 {
-        font-size: 1.5rem;
+    .review-header h5 {
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
     }
 
     .review-header p {
-        font-size: 1.1rem;
-        width: 350px;
+        font-size: 0.9rem;
+        width: 300px;
+        text-align: center;
+    }
+
+    .review-container .review-card {
+        max-width: 280px;
+        max-height: 320px;
+    }
+    .review-card>span {
+        font-weight: 400;
+        font-size: 0.9rem;
+        
     }
 }

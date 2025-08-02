@@ -78,12 +78,10 @@ body {
 
 .navlist li {
     display: inline-block;
-    
-}
-.navlist li:hover {
-    
 
 }
+
+.navlist li:hover {}
 
 .navlist li a {
     text-decoration: none;
@@ -97,6 +95,7 @@ body {
     transition: border-bottom 0.3s ease;
     transition: .3s;
 }
+
 .navlist li a:active {
     color: var(--primary-color);
 }
@@ -833,7 +832,6 @@ body {
 }
 
 .review {
-    background-color: var(--service-icon-bg);
     min-height: 700px;
     margin-top: -2rem;
 }
@@ -847,22 +845,33 @@ body {
 
 }
 
-.review-header h2 {
+.review-header span {
     font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-size: 3rem;
-    margin-top: 5rem;
+    font-weight: 400;
+    font-size: 0.9rem;
+    background-color: var(--service-icon-bg);
+    color: var(--primary-color);
+    padding: 4px;
+    width: 150px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.review-header h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--primary-color);
 
 }
 
 .review-header p {
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 1.4rem;
-    width: 750px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: grey;
+    width: 700px;
     text-align: center;
-    margin-top: 1rem;
-    color: #5c5a5a;
 
 }
 
@@ -895,7 +904,7 @@ body {
     animation: scroll-left 2s linear infinite;
 }
 
-@keyframes scroll-left {
+/*@keyframes scroll-left {
     0% {
         transform: translateX(10%);
     }
@@ -904,7 +913,7 @@ body {
         transform: translateX(-100%);
     }
 
-}
+}*/
 
 .review-card .review-icon {
     color: #8291AC;
@@ -959,9 +968,9 @@ body {
 
 }
 
-.review-card .review-profile .review-profile-text h2 {
+.review-card .review-profile .review-profile-text h5 {
     font-family: "Poppins", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.02rem;
 
 }
