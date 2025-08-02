@@ -253,7 +253,7 @@
     .why-choose-container .why-choose-card {
         width: 320px;
         height: 300px;
-        border: 1px solid var(--primary-color);
+        border-left: 1px solid var(--primary-color);
 
     }
 
@@ -309,6 +309,8 @@
         display: block;
         width: 10px;
         height: 10px;
+         stroke: var(--primary-color);
+
     
     }
 
