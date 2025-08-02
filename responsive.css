@@ -246,9 +246,10 @@
     }
 
     .why-choose .why-choose-container {
-        flex-direction: row;
-        margin-left: 0;
-        gap: -2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    
+    
         
         
 
