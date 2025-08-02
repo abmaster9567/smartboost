@@ -246,28 +246,19 @@
     }
 
     .why-choose .why-choose-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    
-    
-        
-        
+        flex-direction: column;
 
     }
 
     .why-choose-container .why-choose-card {
-        width: 160px;
+        width: 340px;
         height: 300px;
 
     }
-     .why-choose-card h2 {
-        font-size: 0.9rem;
-        margin-top: 0.2rem;
-     }
 
     .why-choose-card p {
-        font-size: 0.8rem;
-        margin-top: 0.1rem;
+        font-size: 1rem;
+        margin-top: -2rem;
 
     }
 
