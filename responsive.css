@@ -276,7 +276,7 @@
     }
 
     .how-it-header {
-        margin-top: 0;
+        margin: 1rem  0 1rem 0;
     }
 
     .how-it-header h2 {
@@ -313,7 +313,7 @@
 
     .how-it-container .how-it-card {
         min-height: 230px;
-        width: 130px;
+        max-width: 180px;
         flex: 0 0 calc((100% - 32px) / 2);
     }
     .how-it-container .how-it-card .how-icon {
