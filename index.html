@@ -19,7 +19,11 @@
     <link rel="stylesheet" href="responsive.css">
 </head>
 
-<body>
+<body onload="hideLoader()">
+  <!-- Loader -->
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
     <header class="header">
         <div class="logo">
             <img src="https://i.ibb.co/3yXBkp4k/favicon2.png" alt="SmartBoost Logo" class="logo-icon">
@@ -41,20 +45,19 @@
     </header>
     <main>
         <section class="hero" id="home">
-            <div class="hero-details-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
-                <span>
+            <div class="hero-details-left">
+                <span data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">
                     <i data-lucide="trending-up"></i>
                     Boost Your Social Presence Instantly
                 </span>
-                <h1>Cheapest & Fastest Social Boosting, SMS verification & Account Marketplace</h1>
-                <p>
-                <p>Need followers, SMS codes to verify your accounts, or ready-made Instagram and TikTok profiles? SmartBoost delivers it all — fast, cheap, and stress-free.</p>
+                <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1200">Cheapest & Fastest Social Boosting, SMS verification & Account Marketplace</h1>
+                <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1400">Need followers, SMS codes to verify your accounts, or ready-made Instagram and TikTok profiles? SmartBoost delivers it all — fast, cheap, and stress-free.</p>
 
                 <div class="hero-left-cta">
-                    <a href="/login.html" class="button"><i data-lucide="rocket" class="hero-cta-icon"></i>Get Started</a>
-                    <a href="#"><i data-lucide="info" class="hero-cta-icon"></i>Learn More</a>
+                    <a href="/login.html" class="button" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1600"><i data-lucide="rocket" class="hero-cta-icon"></i>Get Started</a>
+                    <a href="#" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1600"><i data-lucide="info" class="hero-cta-icon"></i>Learn More</a>
                 </div>
-                <div class="hero-botton-left">
+                <div class="hero-botton-left" data-aos="fade-up" data-aos-duration="500" data-aos-delay="1100">
                     <span>
                         <i data-lucide="users"></i>
                         50K+ Happy Customers
@@ -69,7 +72,7 @@
                     </span>
                 </div>
             </div>
-            <div class="hero-details-right" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+            <div class="hero-details-right" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1300">
                 <div class="hero-img">
                     <img src="https://i.ibb.co/jvfj40cp/social.png">
                 </div>
@@ -418,6 +421,17 @@
     <script>
         lucide.createIcons();
     </script>
+   
+  
+  <script>
+    function hideLoader() {
+      setTimeout(() => {
+        const loader = document.getElementById('preloader');
+        loader.style.display = 'none';
+      }, 900); // 5000ms = 5 seconds
+    }
+  </script>
+
     <!--AOS ANIMATION INITIALIZE SCRIPT-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>

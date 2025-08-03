@@ -6,6 +6,16 @@
 }
 
 @media (max-width:640px) {
+     .header {
+        padding: 15px;
+     }
+     .header .logo-icon {
+        width: 25px;
+        height: 25px;
+     }
+     .header .logo-text {
+        font-weight: 700;
+     }
     .header .navlist {
         display: none;
 
@@ -255,7 +265,7 @@
     .why-choose-container .why-choose-card {
         width: 320px;
         height: 300px;
-        border-left: 1px solid var(--primary-color);
+        border-left: 2px solid var(--primary-color);
 
     }
 
